@@ -13,7 +13,7 @@ NVMe: Samsung 980Pro
 RAM: OLOy 4000MHz DDR4  
 
 What works:  
-WiFi  
+WiFi (only in Big Sur) 
 Bluetooth  
 Ethernet  
 iMessage/Facetime/AppleID  
@@ -26,11 +26,12 @@ Powerbutton wake from sleep
 
 What doesn't work:  
 Bluetooth wake from sleep  
-Booting Monterey 12.x (stuck on #[EB|LOG:EXITBS:START])  
+WiFi (only in Monterey)  
 
 Issues:  
 
 1) I haven't tried much to get bluetooth wake from sleep, it might work, haven't spent much time on this  
-2) I have tried everything, but can't get the monterey installer to get past this first boot screen    
+2) [FIXED]I have tried everything, but can't get the monterey installer to get past this first boot screen    
     https://forum.amd-osx.com/index.php?threads/stuck-on-eb-log-exitbs-start-oc-0-7-3-ryzen-5-1600-rx580-b450m-s2h.2124/  
-    https://dortania-github-io.thrrip.space/OpenCore-Install-Guide/troubleshooting/extended/kernel-issues.html#stuck-on-eb-log-exitbs-start  
+    https://dortania-github-io.thrrip.space/OpenCore-Install-Guide/troubleshooting/extended/kernel-issues.html#stuck-on-eb-log-exitbs-start   
+    Turns out I was using an old OC release. Updated thanks to advice from Aluveitie :) -> installed Monterey, boots up works fine (except broken WiFi)   
