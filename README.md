@@ -30,7 +30,7 @@ WiFi
 
 Issues:  
 
-1) Bluetooth wake from sleep works, but then doesn't reconnect the bluetooth mouse nor keyboard. Very weird...    
+1) Bluetooth doesn't reconnect after wake from sleep, mouse nor keyboard.     
 2) [FIXED]I have tried everything, but can't get the monterey installer to get past this first boot screen    
     https://forum.amd-osx.com/index.php?threads/stuck-on-eb-log-exitbs-start-oc-0-7-3-ryzen-5-1600-rx580-b450m-s2h.2124/  
     https://dortania-github-io.thrrip.space/OpenCore-Install-Guide/troubleshooting/extended/kernel-issues.html#stuck-on-eb-log-exitbs-start   
